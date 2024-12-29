@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "Fira Code", serif;
+   
+}
+#const{
+    max-width:80%;
+    padding: 35px;
+    margin:auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input,button{
+    width:auto;
+    margin: 10px;
+    padding:5px;
+    border-color: rgb(0, 153, 208);
+    border-width:5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: rgba(254, 244, 138, 0.977);
+}
+.btn:hover{
+    background-color: rgb(250, 255, 194);
+    color: rgb(7, 0, 61);
+    cursor:pointer;
+    border-color: rgb(243, 248, 148);
+}
+.bg{
+    background-size: 100% 100%;
+    width:100%;
+    position:absolute;
+    height:100%;
+    opacity:0.8;
+    z-index: -1;
+}
